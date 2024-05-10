@@ -33,4 +33,12 @@ public class Estudiante extends Persona {
                 ", grado='" + grado + '\'' +
                 '}';
     }
+    @Override
+    public void realizarTarea() {
+        System.out.println("Estudiante realizando tarea escolar.");
+    }
+
 }
+
+
+
